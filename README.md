@@ -1,5 +1,7 @@
 # Receipt to CSV
 
+[![Tests](https://github.com/gchis66/receipt-to-csv/actions/workflows/test.yml/badge.svg)](https://github.com/gchis66/receipt-to-csv/actions/workflows/test.yml)
+
 **Live demo: https://receipt-to-csv-nine.vercel.app**
 
 Drop in receipt photos or PDFs and get an accountant-ready CSV. Every extracted field is shown for review and correction before export.
