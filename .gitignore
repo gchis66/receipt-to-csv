@@ -18,3 +18,5 @@ DEPLOY.md
 public/samples/*.jpg
 public/samples/*.png
 public/samples/*.pdf
+# Unblurred originals of the demo receipts: never commit
+samples-original/
