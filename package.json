@@ -1,0 +1,29 @@
+{
+  "name": "receipt-to-csv",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "esbuild tests/logic.test.ts --bundle --platform=node --format=esm --outfile=.test-build.mjs --log-level=error && node .test-build.mjs",
+    "test:accuracy": "node tests/accuracy.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.22",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.7",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "autoprefixer": "10.4.20",
+    "esbuild": "^0.24.2",
+    "postcss": "8.5.1",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3"
+  }
+}

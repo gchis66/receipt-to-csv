@@ -1,0 +1,20 @@
+node_modules/
+.next/
+.env
+.env.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+.test-build.mjs
+
+# Not for publishing: client pitch, client analysis, internal runbooks
+PROPOSAL.md
+SPEC.md
+DEPLOY.md
+# Example env file is safe (placeholders only)
+!.env.example
+# Real receipts with card details: never publish
+public/samples/*.jpg
+public/samples/*.png
+public/samples/*.pdf

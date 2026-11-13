@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Editable grid cells should not show a heavy focus ring inside a dense table. */
+.cell-input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: -2px;
+  background: #fff;
+}
